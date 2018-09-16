@@ -4,19 +4,60 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <title>Trivia Game</title>
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Boogaloo|Give+You+Glory|Roboto+Slab" rel="stylesheet">
 
-    <title>Hello, world!</title>
   </head>
-  <body>
-    <h1>Hello, world!</h1>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <body>
+
+    <div id="screen1" class="startScreen">
+        <h1>I'll Drink to That!!</h1>
+        <h2>Trivia Game</h2>
+        <p>Can you answer 10 trivia questions in 1 minute?</p>
+
+        <button type="button" id="startButton" class="btn btn-primary blue-background">CHEERS!</button>
+
+    </div>
+
+    <div class="answerScreen">
+        <h1>I'll Drink to That!!</h1>
+        <h2>Wine & Beer Trivia</h2>
+
+        <div class="timeLeft">Time Remaining:
+            <div id="timer">60</div>
+        </div>
+
+        <div class="question">
+            <button type="button" id ="submitButton" class="btn btn-primary blue-background">Submit</button>
+        </div>
+
+    </div>
+
+    <div id="screen3" class="timeScreen">
+        <h2>You finished in time, but how many did you get right?</h2>
+        <p id="yes">Right: </p>
+        <p id="no">Wrong: </p>
+
+    </div>
+
+    <div id="screen4"  class="noTimeScreen">
+        <h2>Looks like we're out of ice!</h2>
+        <p>Here's you're score:</p>
+        <p id="yesNoTimeLeft">Right: </p>
+        <p id="noNoTimeLeft">Wrong: </p>
+        
+    </div>
+
+    <script src="./assets/javascript/app.js"></script>
+
   </body>
 </html>

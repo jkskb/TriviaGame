@@ -1,0 +1,103 @@
+body {
+    background-image: url('../images/suds.jpg');
+    font-family: 'Roboto-Slab';
+    font-size: 20px;
+    color: #29bf12;
+    text-align: center;
+}
+
+#screen1 {
+    margin: auto;
+    margin-top: 100px;
+    width: 62%;
+    background: #ffdb00;
+    border-radius: 25px;
+}
+
+.startScreen {
+    padding: 1%;
+}
+
+h1 {
+    padding-top: 1%;
+    font-family: 'Give You Glory';
+    font-size: 90px;
+    color: #00a6ed;
+}
+
+h2 {
+    font-family: 'Boogaloo'; 
+    font-size: 40px;
+    color: #f6511d;
+}
+
+p {
+    font-size: 25px;
+}
+
+.answerScreen {
+    display: none;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    width: 62%;
+    background: #ffdb00;
+    border-radius: 25px;
+}
+
+.timeLeft {
+    margin: auto;
+    padding-top: 2%;
+    width: 200px;
+    color: #f6511d;
+    background: #00a6ed;
+    border-radius: 25px;
+}
+
+#timer {
+    font-size: 70px;
+}
+
+.questions {
+    font-size: 25px;
+}
+
+answer {
+    padding: 1%;
+    font-family: 'Boogaloo';
+    font-size: 20px;
+    color: #00a6ed;
+}
+
+.timeScreen {
+    margin: 0 auto;
+    text-align: center;
+    background: #ffdb00;
+    border-radius: 25px;
+}
+
+#screen3 {
+    display: none;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 1%;
+    width: 35%;
+    font-size: 21px;
+}
+
+.noTimeScreen {
+    margin: 0 auto;
+    text-align: center;
+    background: #ffdb00;
+    border-radius: 25px;
+}
+
+#screen4 {
+    display: none;
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 1%;
+    width: 35%;
+    font-size: 21px;
+}
