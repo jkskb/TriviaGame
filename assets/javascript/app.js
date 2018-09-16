@@ -74,7 +74,7 @@ var answers = ["1", "2", "3", "4"];
 var start = $("#startButton").on('click', function() {
     $(this).parent().hide();
     $('.answerScreen').show();
-    countdown(6);
+    countdown(60);
     showQuestions();
 });
 
